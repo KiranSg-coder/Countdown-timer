@@ -1,0 +1,63 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(20deg, rgba(2, 0, 36, 1) 0%, rgb(144, 10, 161) 0%, rgba(215, 74, 232, 1) 0%, rgba(127, 226, 255, 1) 65%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="datetime-local"] {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    /* Add white line border */
+    background-color: transparent;
+    /* Make background transparent */
+    color: #fff
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 5px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(17deg, rgba(2, 0, 36, 1) 0%, rgba(123, 8, 137, 1) 0%, rgba(215, 74, 232, 1) 0%, rgba(127, 226, 255, 1) 65%);
+    color: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 20px;
+    border: 2px solid #fff;
+    /* Add white line border */
+    border-radius: 5px;
+    background-color: transparent;
+    /* Make background transparent */
+    color: #fff;
+    /* Set text color to white */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: transparent;
+    /* Set hover background to transparent */
+    border-color: #e0f4e1;
+    /* Change border color on hover */
+}
